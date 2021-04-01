@@ -64,7 +64,7 @@ const { daily, level, register, afk, reminder, premium, limit} = require('../fun
 const Exif = require('../tools/exif')
 const exif = new Exif()
 const cd = 4.32e+7
-const limitCount = 25
+const limitCount = 10000
 const errorImg = 'https://i.ibb.co/jRCpLfn/user.png'
 const tanggal = moment.tz('Asia/Jakarta').format('DD-MM-YYYY')
 /********** END OF UTILS **********/
